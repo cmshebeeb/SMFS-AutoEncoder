@@ -7,3 +7,5 @@ data/raw/*
 data/processed/*
 *.token
 .env
+*.pt
+*.pth
