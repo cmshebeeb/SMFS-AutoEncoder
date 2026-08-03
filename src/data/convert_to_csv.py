@@ -1,9 +1,12 @@
+import sys
 from scipy.io import loadmat
 import pandas as pd
 from pathlib import Path
 
 #Load mat file
-mat_file = Path("data/raw/colon.mat")
+dataset_name = sys.argv[1]
+
+mat_file = Path(f"data/raw/{dataset_name}.mat")
 data = loadmat(mat_file)
 
 #print(data.keys())
@@ -25,10 +28,11 @@ df = pd.DataFrame(X, columns=feature_names)
 df["label"] = Y
 
 #save the csv file
-output_file = Path("data/preprocessed/colon.csv")
+output_file = Path(f"data/preprocessed/{dataset_name}.csv")
 df.to_csv(output_file, index=False)
 
-#
+#verify the csv
 print(df.head())
 print(df.shape)
 print(df["label"].unique())
+
