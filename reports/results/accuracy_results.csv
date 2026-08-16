@@ -1,12 +1,12 @@
 Dataset,Method,Features_Selected,ACC
 Colon,Baseline,2000,0.5161
-Colon,"L2,1 Autoencoder",50,0.6129032258064516
-Colon,"L2,1 Autoencoder",100,0.5645161290322581
-Colon,"L2,1 Autoencoder",150,0.5645161290322581
+Colon,"L2,1 Autoencoder",50,0.532258064516129
+Colon,"L2,1 Autoencoder",100,0.532258064516129
+Colon,"L2,1 Autoencoder",150,0.5483870967741935
 Colon,"L2,1 Autoencoder",200,0.5483870967741935
 Colon,"L2,1 Autoencoder",250,0.5483870967741935
 Colon,"L2,1 Autoencoder",300,0.5483870967741935
-Colon,"L2,1 Autoencoder",350,0.5483870967741935
+Colon,"L2,1 Autoencoder",350,0.532258064516129
 Colon,"L2,1 Autoencoder",400,0.532258064516129
 Colon,"L2,1 Autoencoder",450,0.532258064516129
 Colon,"L2,1 Autoencoder",500,0.532258064516129
