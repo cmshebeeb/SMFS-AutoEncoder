@@ -2,8 +2,22 @@ import torch
 import torch.nn as nn
 
 class AutoEncoder(nn.Module):
-    def __init__(self, input_dim, hidden_dim, lambda_l21=0.001):
+
+    def __init__(
+        self,
+        input_dim,
+        hidden_dim,
+        lambda_l21=0.001,
+        lambda_graph=0.001,
+        lambda_recon_graph=0.001
+    ):
+        super().__init__()
+
         self.lambda_l21 = lambda_l21
+        self.lambda_graph = lambda_graph
+        self.lambda_recon_graph = lambda_recon_graph
+
+        
         super().__init__()
 
         self.encoder_layer = nn.Linear(input_dim, hidden_dim)

@@ -9,3 +9,4 @@ data/processed/*
 .env
 *.pt
 *.pth
+.pytest_cache/
