@@ -118,7 +118,3 @@ Moslemi & Jamshidi (2025), *Unsupervised Feature Selection Using Sparse Manifold
 ## Disclaimer
 
 The numerical results in this README represent the currently reported experimental results. They should be independently checked against the original publication and experiment logs before formal publication or citation. Performance improvements alone do not establish the contribution of individual architectural components; controlled ablation studies and repeated experiments are needed to support such claims.
-
-## License
-
-Add the chosen license and its terms here before distributing the repository publicly.
