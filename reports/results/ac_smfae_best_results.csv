@@ -1,0 +1,4 @@
+Dataset,Type,Samples (n),Features (d),Baseline SMFAE ACC (%),Proposed AC-SMFAE ACC (%),Baseline NMI (%),Proposed AC-SMFAE NMI (%),Combination
+ORL,Images,400,1024,56.9,57.84,76.25,76.52,Comb A
+Leukemia,Microarray,72,7129,66.67,73.26,4.02,15.63,Comb C
+Colon,Microarray,62,2000,56.45,59.35,0.99,1.09,Comb C
